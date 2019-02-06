@@ -36,6 +36,16 @@ li {
 }
 
 .menu_item {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 500ms;
+
+}
+
+.menu_item:hover {
+  border-color: #c3c3c3;
   text-align: center;
 }
 
